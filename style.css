@@ -15,16 +15,13 @@
 
 html{
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
     font-family: "Roboto";
 }
 
-.cover {
-    height: 85vh;
-    
-}
 
 .cover.home{
     background-color: #1f3944;
@@ -73,6 +70,7 @@ body {
     float: right;
     position: relative;
     padding-top: 10px;
+    font-size: 15px;
 }
 
 .navigation ul li{
@@ -136,12 +134,14 @@ body {
 
 
 .hello{
-    position: relative;
-    left:8%;
-    bottom: 10vh;
     text-align: center;
     padding: 40px;
-    border: 0.9px #ee283e;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    margin-top: 5rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 7rem;
 }
 
 .hello h1{
@@ -152,11 +152,14 @@ body {
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.377);
 }
 
+
 .hello:hover{
     background: #ee283e;
     transition: all 1s ease;
     border-radius: 15px;
+    border: solid 0px;
 }
+
 
 .align-right{
     position: relative;
@@ -240,6 +243,24 @@ h1 {
     color: #ee283e;
     transition: all 1s ease;
     cursor: pointer;
+}
+
+.small-talk{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.pres{
+    visibility: hidden;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pres p{
+    width: 20rem;
 }
 
 
