@@ -1,0 +1,248 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("./roboto/Roboto-Thin.ttf") format("opentype")
+}
+
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.a ,.b{
+    display: inline;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.cover {
+    height: 85vh;
+    
+}
+
+.cover.home{
+    background-color: #1f3944;
+    align-items: center;
+    display: flex;
+}
+.cover-contact{
+    background-color: #1f3944;
+}
+
+    .cover.bottom{
+        background-color: #fff;
+        height: 15vw;
+        bottom: 70px;
+        position: relative;
+        -webkit-transform: skewY(-5deg);
+        -ms-transform: skewY(-5deg);
+        transform: skewY(-5deg);
+    }
+
+    .cover.top{
+        background-color: #fff;
+        height: 15vw;
+        top: 65px;
+        position: relative;
+        -webkit-transform: skewY(5deg);
+        -ms-transform: skewY(5deg);
+        transform: skewY(5deg);
+    }
+
+
+
+
+
+.navigation{
+    background-color: #1f3944;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    z-index: 99;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    position: relative;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 10px;
+    -webkit-transition: all 0.5s ease;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+}
+
+.navigation li a:hover {
+    /* border-bottom: 1px solid rgb(28, 121, 184); */
+    color: #ee283e;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    cursor: pointer;
+}
+
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation li a:before, .navigation li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -1px;
+    background: #ee283e;;
+  }
+  
+  .navigation li a:before {
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  .navigation li a:after {
+    background: #ee283e;
+    right: 0;
+    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+  }
+  
+  .navigation li a:hover:before {
+    background: #ee283e;
+    width: 100%;
+    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+  }
+  
+  .navigation li a:hover:after {
+    background: transparent;
+    width: 100%;
+    /* transition: 0s; */
+  }
+
+  #home p{
+      font-size: 30;
+      color: #fff;
+  }
+
+
+.hello{
+    position: relative;
+    left:8%;
+    bottom: 10vh;
+    text-align: center;
+    padding: 40px;
+    border: 0.9px #ee283e;
+}
+
+.hello h1{
+    padding-bottom: 10px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.377);
+    -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 6rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.377);
+}
+
+.hello:hover{
+    background: #ee283e;
+    transition: all 1s ease;
+    border-radius: 15px;
+}
+
+.align-right{
+    position: relative;
+    height: 10em;
+    width: 100%;
+}
+
+.align-right h1{
+    float: right;
+    right: 20%;
+}
+
+.align-left{
+    padding-top: 5em;
+    position: relative;
+    height: 10em;
+    width: 100%;
+}
+
+.align-left h1{
+    float: left;
+    right: 20%;
+    color: #fff;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 4em;
+    font-style: bold;
+    padding: 0 3rem;
+}
+
+.container{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin: 1em;
+    box-shadow: 0px 0px 1px 1px #1f394473;
+    text-align: center;
+}
+
+.card-top{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 3rem;
+    background-color: #fff;
+}
+
+.card-bottom{
+    height: 7em;
+}
+
+.img-center{
+    margin: 1.5em;
+    padding: 2.5em;
+}
+
+.personal-data{
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    display: grid;
+    padding: 3em;
+    font-size: 2rem;
+}
+
+.link:hover{
+    color: #ee283e;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+
+
+
