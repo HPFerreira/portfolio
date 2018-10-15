@@ -73,7 +73,6 @@ body {
     float: right;
     position: relative;
     padding-top: 10px;
-    font-size: 15px;
 }
 
 .navigation ul li{
@@ -82,7 +81,7 @@ body {
     margin: 10px;
     -webkit-transition: all 0.5s ease;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navigation li a:hover {
