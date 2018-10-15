@@ -25,7 +25,7 @@ body {
 
 .cover.home{
     background-color: #1f3944;
-    align-items: center;
+    justify-content: center;
     display: flex;
 }
 .cover-contact{
