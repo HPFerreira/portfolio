@@ -37,9 +37,9 @@ body {
         height: 15vw;
         bottom: 70px;
         position: relative;
-        -webkit-transform: skewY(-5deg);
-        -ms-transform: skewY(-5deg);
-        transform: skewY(-5deg);
+        -webkit-transform: skewY(-3deg);
+        -ms-transform: skewY(-3deg);
+        transform: skewY(-3deg);
     }
 
     .cover.top{
@@ -47,9 +47,9 @@ body {
         height: 15vw;
         top: 65px;
         position: relative;
-        -webkit-transform: skewY(5deg);
-        -ms-transform: skewY(5deg);
-        transform: skewY(5deg);
+        -webkit-transform: skewY(3deg);
+        -ms-transform: skewY(3deg);
+        transform: skewY(3deg);
     }
 
 
